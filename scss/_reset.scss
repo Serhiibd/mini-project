@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Montserrat";
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+.template-btn {
+  width: 200px;
+  height: 45px;
+  border-radius: 30px;
+  background-color: #4985ff;
+  box-shadow: 0px 0px 10px 0px #6f6f6f40;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19.5px;
+  letter-spacing: 0%;
+  text-align: center;
+  border: 0;
+
+  color: #ffffff;
+  cursor: pointer;
+  outline: none;
+  transition: 0.5s ease-in-out;
+  &:hover {
+    transform: scale(1.1);
+  }
+}
