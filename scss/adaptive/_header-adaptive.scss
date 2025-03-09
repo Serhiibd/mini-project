@@ -1,0 +1,27 @@
+@media screen and (max-width: 658px) {
+  .header_top--list {
+    display: none;
+  }
+  .header_mobile--menu {
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .header {
+    &_bottom {
+      &--title {
+        font-size: 38px;
+        line-height: 53.36px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 355px) {
+  .header_bottom--title {
+    font-size: 32px;
+    line-height: 42px;
+  }
+}
